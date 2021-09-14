@@ -4,8 +4,8 @@ is just lying about knowing how to code.
 The rules are as follows:
 As input you will receive a single number.
 If that number is divisible by 3 and 5 return the string "FizzBuzz"
-If that number is divisible by 3 return the string "Fizz"
-If that number is divisible by 5 return the string "Buzz"
+If that number is divisible by 3 and not 5 return the string "Fizz"
+If that number is divisible by 5 and not 3 return the string "Buzz"
 Otherwise return the string representation of the number
 """
 
